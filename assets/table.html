@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<table border="2" width="500" height="400">
+		<colgroup>
+			<col style= background:green;>
+			<col style= background:blue;>
+			<col style= background:red;>
+			<col style= background:yellow;>
+			<col style= background:skyblue;>
+
+		</colgroup>
+		<tr>
+			<td rowspan="4">a1</td>
+			<td colspan="4">a2</td>
+			<!-- td>a3</td>
+			<td>a4</td>
+			<td>a5</td> -->
+		</tr>
+		<tr>
+			<!-- <td>a1</td> -->
+			<td rowspan="2">b2</td>
+			<td>b3</td>
+			<td rowspan="2">b4</td>
+			<td rowspan="3">b5</td>
+		</tr>
+		<tr>
+			<!-- <td>a1</td> -->
+			<!-- <td>c2</td> -->
+			<td>c3</td>
+			<!-- <td>c4</td> -->
+			<!-- <td>c5</td> -->
+		</tr>
+		<tr>
+			<!-- <td>a1</td> -->
+			<td colspan="3">d2</td>
+			<!-- <td>d3</td>
+			<td>d4</td> -->
+			<!-- <td>d5</td> -->
+		</tr>
+	</table>
+</body>
+</html>
